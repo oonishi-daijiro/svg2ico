@@ -524,6 +524,8 @@
   "stories.mdx": "storybook",
   "story.js": "storybook",
   "story.jsx": "storybook",
+  "html":"html",
+  "ts":"typescript",
   "stories.ts": "storybook",
   "stories.tsx": "storybook",
   "story.ts": "storybook",
