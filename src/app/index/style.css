@@ -2,3 +2,27 @@
   width: 200px;
   height: 200px;
 }
+
+.icon_display{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 600ms 0s ease;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#iconsTable{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.icon_display:hover {
+    background: #eeeeee;
+}
+
+.file_ext_display{
+  font-weight: bold;
+}

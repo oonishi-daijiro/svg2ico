@@ -1,330 +1,282 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# ����̓t���[�\�t�g�E�F�A�ł�. ���p�����ɂ��Ă̓\�[�X��
-# ������������.
-# ���Ɛ������̖ړI�ւ̓K�����̔@���Ɋւ�炸, ���ۏ؂ł�.
+make.exe: *** No rule to make target 'all'.  Stop.
 
-# This program built for i386-pc-mingw32
- 
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
 
-# Make �f�[�^�x�[�X�o�� Thu Aug 25 13:25:41 2022
+# Make data base, printed on Sun Aug 28 17:52:28 2022
 
-# �ϐ�
+# Variables
 
-# ���ϐ�
-POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
-# �����ϐ�
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
 ?F = $(notdir $?)
-# �����ϐ�
-<D = $(patsubst %/,%,$(dir $<))
-# ���ϐ�
+# environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
-# ���ϐ�
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# makefile �ϐ�
-MAKEFLAGS = Rrqp
-# �����ϐ�
-?D = $(patsubst %/,%,$(dir $?))
-# �����ϐ�
-@D = $(patsubst %/,%,$(dir $@))
-# ���ϐ�
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
 HOMEDRIVE = C:
-# �����ϐ�
+# automatic
 @F = $(notdir $@)
-# �����ϐ�
-^D = $(patsubst %/,%,$(dir $^))
-# makefile �ϐ�
-CURDIR := c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/regeditsvg2ico
-# �f�t�H���g
-SHELL := C:/Program Files/Git/bin/sh.exe
-# ���ϐ�
-WINDIR = C:\WINDOWS
-# ���ϐ�
-VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"0eea3b1222777374459e015adf6fd29b.ja","_translationsConfigFile":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja\\tcf.json","_cacheRoot":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja\\corrupted.info","_languagePackSupport":true}
-# ���ϐ�
-ONEDRIVE = C:\Users\oonishi_daijiro\OneDrive - �x�R������w
-# ���ϐ�
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/daiji/Main/code/projects/svg2ico
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"0eea3b1222777374459e015adf6fd29b.ja","_translationsConfigFile":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja\\tcf.json","_cacheRoot":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\0eea3b1222777374459e015adf6fd29b.ja\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\daiji\OneDrive - �x�R������w
+# environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
-# makefile �ϐ� (`makefile', 1 �s�ڂ���)
+# makefile (from 'makefile', line 1)
 MAKEFILE_LIST :=  makefile
-# ���ϐ�
-TMP = C:\Users\OONISH~1\AppData\Local\Temp
-# ���ϐ�
+# environment
+TMP = C:\Users\daiji\AppData\Local\Temp
+# environment
 PROGRAMW6432 = C:\Program Files
-# ���ϐ�
+# environment
 PROGRAMDATA = C:\ProgramData
-# ���ϐ�
-VSCODE_CWD = C:\Users\oonishi_daijiro\Desktop\Main\works\Programing\Projects\regeditsvg2ico
-# ���ϐ�
-PATH = C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 17\bin;C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PowerShell\7\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Go\bin;C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\;C:\Users\oonishi_daijiro\.cargo\bin;C:\Users\oonishi_daijiro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps\;C:\Program Files\ffmpeg\bin;C:\Program Files\Git\bin;C:\Users\oonishi_daijiro\Desktop\Main\localApps\ProgramFiles\MyTools\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\curl-7.71.1-win64-mingw\curl-7.71.1-win64-mingw\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Users\oonishi_daijiro\Desktop\Main\pathForCLItools\SDK-Platform-Tools;C:\Users\oonishi_daijiro\AppData\Roaming\npm;C:\Users\oonishi_daijiro\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\GoLand 2021.3.2\bin;;C:\Program Files (x86)\GitHub CLI\;C:\Program Files\mingw64\bin;C:\Users\oonishi_daijiro\go\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\oonishi_daijiro\.dotnet\tools
-# ���ϐ�
+# environment
+VSCODE_CWD = C:\Users\daiji\Main\code\projects\svg2ico
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Users\daiji\AppData\Local\Microsoft\WindowsApps;C:\Users\daiji\AppData\Roaming\npm;C:\Users\daiji\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\daiji\Main\LocalApps\MyTools\bin;C:\Program Files\mingw64\bin;C:\Users\daiji\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chrome �A�v��;C:\Users\daiji\go\bin
+# environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# ���ϐ�
-CHOCOLATEYLASTPATHUPDATE = 132388465551785663
-# ���ϐ�
-PROCESSOR_ARCHITECTURE = x86
-# ���ϐ�
-USERPROFILE = C:\Users\oonishi_daijiro
-# ���ϐ�
-CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
-# ���ϐ�
-ALLUSERSPROFILE = C:\ProgramData
-# ���ϐ�
-GOPATH = C:\Users\oonishi_daijiro\go
-# ���ϐ�
-NUMBER_OF_PROCESSORS = 12
-# ���ϐ�
-ELECTRON_RUN_AS_NODE = 1
-# �f�t�H���g
-.FEATURES := target-specific order-only second-expansion else-if archives
-# ���ϐ�
-PROCESSOR_LEVEL = 23
-# �����ϐ�
-%F = $(notdir $%)
-# ���ϐ�
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_42232_NMHUOGWQXXMVSGSE
-# ���ϐ�
-COMPUTERNAME = DAIJIRO-DESKTOP
-# ���ϐ�
-PROGRAMFILES = C:\Program Files (x86)
-# ���ϐ�
-GOLAND = C:\Program Files\JetBrains\GoLand 2021.3.2\bin;
-# ���ϐ�
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
-# ���ϐ�
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# ���ϐ�
-WT_SESSION = 91c58432-429c-4872-8a9c-9004498a3cf7
-# ���ϐ�
-USERNAME = oonishi_daijiro
-# ���ϐ�
-PUBLIC = C:\Users\Public
-# ���ϐ�
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# ���ϐ�
-VSCODE_CLI = 1
-# ���ϐ�
-VSCODE_CODE_CACHE_PATH = C:\Users\oonishi_daijiro\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
-# ���ϐ�
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# ���ϐ�
-COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
-# ���ϐ�
-LOGONSERVER = \\DAIJIRO-DESKTOP
-# ���ϐ�
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# ���ϐ�
-USERDOMAIN = DAIJIRO-DESKTOP
-# �f�t�H���g
-MAKE = $(MAKE_COMMAND)
-# �f�t�H���g
-MAKECMDGOALS := all
-# ���ϐ�
-LIBPATH = C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;
-# ���ϐ�
-ONEDRIVECOMMERCIAL = C:\Users\oonishi_daijiro\OneDrive - �x�R������w
-# �f�t�H���g
-MAKE_VERSION := 3.81
-# makefile �ϐ�
-.DEFAULT_GOAL := run
-# ���ϐ�
-INCLUDE = C:\Program Files\mingw64\x86_64-w64-mingw32\include;C:\Program Files\mingw64\include;C:\Program Files\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include;C:\Program Files\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++;
-# ���ϐ�
-PROGRAMFILES(X86) = C:\Program Files (x86)
-# �����ϐ�
-%D = $(patsubst %/,%,$(dir $%))
-# ���ϐ�
-LOCALAPPDATA = C:\Users\oonishi_daijiro\AppData\Local
-# ���ϐ�
-PSMODULEPATH = C:\Users\oonishi_daijiro\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
-# �f�t�H���g
-MAKE_COMMAND := make.exe
-# ���ϐ�
-PROCESSOR_ARCHITEW6432 = AMD64
-# �f�t�H���g
-.VARIABLES := 
-# �����ϐ�
-*F = $(notdir $*)
-# ���ϐ�
-PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
-# ���ϐ�
-OS = Windows_NT
-# ���ϐ�
-VSCODE_IPC_HOOK = \\.\pipe\755a8193c0e871585bc798da6a3655c8-1.70.2-main-sock
-# ���ϐ�
-HOMEPATH = \Users\oonishi_daijiro
-# ���ϐ�
-COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# ���ϐ�
-PROMPT = $P$G
-# ���ϐ�
-MFLAGS = -Rrqp
-# �����ϐ�
-*D = $(patsubst %/,%,$(dir $*))
-# ���ϐ�
-SYSTEMROOT = C:\WINDOWS
-# �����ϐ�
-+D = $(patsubst %/,%,$(dir $+))
-# �����ϐ�
-+F = $(notdir $+)
-# ���ϐ�
-APPDATA = C:\Users\oonishi_daijiro\AppData\Roaming
-# ���ϐ�
-TEMP = C:\Users\OONISH~1\AppData\Local\Temp
-# ���ϐ�
-WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
-# ���ϐ�
-COMSPEC = C:\WINDOWS\system32\cmd.exe
-# �f�t�H���g
-MAKEFILES := 
-# �����ϐ�
-<F = $(notdir $<)
-# ���ϐ�
-DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
-# ���ϐ�
+# environment
 LC_ALL = C
-# �����ϐ�
-^F = $(notdir $^)
-# �f�t�H���g
-SUFFIXES := 
-# ���ϐ�
-SYSTEMDRIVE = C:
-# ���ϐ�
-SESSIONNAME = Console
-# ���ϐ�
-PROCESSOR_REVISION = 7100
-# ���ϐ�
-VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
-# ���ϐ�
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\daiji
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+GOPATH = C:\Users\daiji\go
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4276_PVXRVUFMDTDNVQMU
+# environment
+COMPUTERNAME = ONISHIDAIJIRO
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+WT_SESSION = 32c88bb1-d6ac-4946-8958-08134177deec
+# environment
+USERNAME = oonishi_daijiro
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\daiji\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\ONISHIDAIJIRO
+# environment
+ONEDRIVECONSUMER = C:\Users\daiji\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = ONISHIDAIJIRO
+# environment
 MAKELEVEL := 0
-# ���ϐ�
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\daiji\OneDrive - �x�R������w
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := run
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\daiji\AppData\Local
+# environment
+PSMODULEPATH = C:\Users\daiji\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\96f297426d6b21d8132f1144f50a2827-1.70.2-main-sock
+# environment
+HOMEPATH = \Users\daiji
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\daiji\AppData\Roaming
+# environment
+TEMP = C:\Users\daiji\AppData\Local\Temp
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# environment
+COMSPEC = C:\windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8c01
+# default
+.RECIPEPREFIX := 
+# environment
 LANG = C
-# ���ϐ�
-GITLOCALREPOSITORY = D:\Data\Git\repository
-# ���ϐ�
-VSCODE_PID = 42232
-# ���ϐ�
-USERDOMAIN_ROAMINGPROFILE = DAIJIRO-DESKTOP
-# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
-# Load=97/1024=9%, Rehash=0, Collisions=12/116=10%
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 4276
+# environment
+USERDOMAIN_ROAMINGPROFILE = ONISHIDAIJIRO
+# variable set hash-table stats:
+# Load=93/1024=9%, Rehash=0, Collisions=17/114=15%
 
 # Pattern-specific Variable Values
 
-# �p�^�[���w��ϐ 
-��̒l�Ȃ�.
+# No pattern-specific variable values.
 
-# �f�B���N�g��
+# Directories
 
-# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1639208808): 6 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1652431257): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1645358793): 32 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652273548): 155 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# . (key c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/regeditsvg2ico, mtime 1661401213): 12 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1640014958): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1600746632): 10 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1594373561): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1660019511): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1637384727): 471 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1639208654): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\ffmpeg\bin (key C:/Program Files/ffmpeg/bin, mtime 1590496135): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 17\bin: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1584597259): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows (key C:/Windows, mtime 1585296127): 125 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\ (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Python/Python310/, mtime 1657547375): 19 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\Git\bin (key C:/Program Files/Git/bin, mtime 1603972912): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (�����܂ł�).
-# C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1659445103): 14 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Users\oonishi_daijiro\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1660795637): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 8\bin: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1603972938): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1661065959): 3074 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\.cargo\bin (key C:/Users/oonishi_daijiro/.cargo/bin, mtime 1660586034): 15 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps\ (key C:/Users/oonishi_daijiro/AppData/Local/Microsoft/WindowsApps/, mtime 1660979508): 50 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1633520038): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# . (key c:/Users/daiji/Main/code/projects/svg2ico, mtime 1661591996): 12 files, no impossibilities.
 
-# 4062 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (27 �̃f�B���N�g����).
+# 12 files, no impossibilities in 1 directories.
 
-# �Öك��[��
+# Implicit Rules
 
-# �Öك��[���Ȃ�.
+# No implicit rules.
 
-# �t�@�C��
+# Files
 
 svg: src/readSvg/main.js
-#  �Öك��[���̒T���͍s���܂���ł���.
-#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
-#  ���s����R�}���h (`makefile', 4 �s�ڂ���):
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 4):
 	node ./src/readSvg/main.js
-	
 
-# �^�[�Q�b�g�ł͂���܂���:
+# Not a target:
 all:
-#  �R�}���h���C���^�[�Q�b�g.
-#  �Öك��[���̒T�����s���܂���.
-#  �t�@�C�������݂��܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
-# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
 
-# �^�[�Q�b�g�ł͂���܂���:
+# Not a target:
 src/readSvg/main.js:
-#  �Öك��[���̒T���͍s���܂���ł���.
-#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-# �^�[�Q�b�g�ł͂���܂���:
-.DEFAULT:
-#  �Öك��[���̒T���͍s���܂���ł���.
-#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
-
-# �^�[�Q�b�g�ł͂���܂���:
+# Not a target:
 makefile:
-#  �Öك��[���̒T�����s���܂���.
-#  �ŏI�C�� 2022-08-24 00:20:06
-#  �t�@�C���͍X�V����Ă��܂�.
-#  �X�V�ɐ������܂���.
-# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  Implicit rule search has been done.
+#  Last modified 2022-08-25 15:40:35
+#  File has been updated.
+#  Successfully updated.
 
-# �^�[�Q�b�g�ł͂���܂���:
-.SUFFIXES:
-#  �Öك��[���̒T���͍s���܂���ł���.
-#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
-# �^�[�Q�b�g�ł͂���܂���:
+# Not a target:
 main.js:
-#  �Öك��[���̒T���͍s���܂���ł���.
-#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 run: main.js
-#  �Öك��[���̒T���͍s���܂���ł���.
-#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
-#  �t�@�C���͍X�V����Ă��܂���.
-#  ���s����R�}���h (`makefile', 2 �s�ڂ���):
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 2):
 	npx electron .
-	
 
-# �t�@�C���n�b�V���e�[�u���̏��:
-# Load=8/1024=1%, Rehash=0, Collisions=0/21=0%
-# VPATH �T���p�X
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
 
-# `vpath' �T���p�X�͂���܂���
+# No 'vpath' search paths.
 
-# ��ʂ� (`VPATH' �ϐ�) �T���p�X�Ȃ�.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1 (0) / strings = 18 / storage = 151 B / avg = 8 B
+# current buf: size = 8162 B / used = 151 B / count = 18 / avg = 8 B
 
-# Make �f�[�^�x�[�X�I�� Thu Aug 25 13:25:41 2022
+# strcache performance: lookups = 24 / hit rate = 25%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=1/24=4%
+# Finished Make data base on Sun Aug 28 17:52:28 2022
 
  
-make.exe: *** �^�[�Q�b�g `all' �� make ���郋�[��������܂���.  ���~.
-
